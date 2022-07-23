@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target\maigolab_hello-1.0.0.jar
+ADD C:\JENKINSHOME\workspace\CICD to docker1\target
 ENTRYPOINT ["java","-jar","maigolab_hello-1.0.0.jar"]
